@@ -1,0 +1,57 @@
+<script>
+  const originalQuotes = [
+    "Foaie verde de puiet, Stefan e cel mai baiet!",
+    "Foaie verde maghiran, Cine-i baietas? Stefan!",
+    "Cine n-are Stefan, sa-si cumpere!",
+  ];
+  const chuckNorrisAdaptedQuotes = [
+    "Stefan Perju poate găsi mereu acel lucru pe care toți ceilalți îl caută fără succes.",
+    "Când Stefan Perju spune o glumă, chiar și râul râde.",
+    "Nu există întrebare la care Stefan Perju nu știe răspunsul. Dacă nu știe acum, o va descoperi.",
+    "Stefan Perju nu citește cărți de bucate. El le scrie.",
+    "Atunci când Stefan Perju face un meme, internetul își face pauză să se distreze.",
+    "Stefan Perju poate face orice, dar el alege să facă lumea mai bună.",
+    "Dacă ai nevoie de un sfat, întreabă-l pe Stefan Perju. Chiar și Google îl face.",
+    "Stefan Perju nu se uită la ceas. El decide când este timpul.",
+    "Când Stefan Perju pășește pe pământ străin, pământul se simte onorat.",
+    "Nu există nicio diferență între magie și ceea ce face Stefan Perju zilnic.",
+    "Stefan Perju poate găsi lumina la capătul oricărui tunel, chiar dacă nu există un tunel.",
+    "Când Stefan Perju împrumută o carte, biblioteca primește un upgrade.",
+    "Stefan Perju nu are nevoie de umbrelă. Ploaia știe să se oprească când el vrea.",
+    "Dacă Stefan Perju ar fi fost la bordul Titanicului, icebergul ar fi evitat nava.",
+    "Stefan Perju nu are vise. El are planuri pe care încă nu le-ai aflat.",
+    "Când Stefan Perju se uită la stele, ele îi răspund cu direcții.",
+    "Școala nu l-a învățat pe Stefan Perju. El a învățat școala.",
+    "Dacă Stefan Perju ar fi fost fondatorul Facebook, n-ar fi existat butonul de unlike.",
+    "Stefan Perju nu aleargă după visele lui. Visele aleargă după el.",
+    "Când Stefan Perju merge la pescuit, peștii își caută un alt loc de refugiu.",
+    "Stefan Perju nu ratează niciodată un tren. Trenul ratează șansa să-l aibă la bord.",
+    "Dacă Stefan Perju ar fi fost arhitectul Turnului Pisa, acesta ar fi fost drept ca o săgeată.",
+    "Nimic nu stă în calea lui Stefan Perju, pentru că el decide direcția în care merge universul.",
+    "Când Stefan Perju se uită în oglindă, oglinda îi spune cât de norocoasă este să-l aibă.",
+    "Stefan Perju a învățat alfabetul înainte să știe să vorbească. Alfabetul l-a auzit și a învățat să se roage la el.",
+    "Când Stefan Perju îți spune că vei râde, chiar și lacrimile se pregătesc să devină zâmbet.",
+    "Stefan Perju nu are nevoie de cuvinte încrucișate. Cuvintele încrucișate au nevoie de el.",
+    "Dacă Stefan Perju ar fi fost inventatorul roții, lumea ar fi mers pe linie dreaptă.",
+    "Stefan Perju nu uită niciodată un nume. Numele uită să fie uitate când sunt rostite de el.",
+    "Când Stefan Perju își face cafeaua, cafeaua îl întreabă cum vrea ea să fie savurată.",
+    "Stefan Perju nu numără măturile. Măturile numără privilegiul de a fi folosite de el.",
+    "Dacă Stefan Perju ar fi fost scriitorul Poveștii lui Cenușăreasa, pantoful de sticlă ar fi fost ajustat personal de el.",
+    "Stefan Perju nu are vârstă. El are niveluri de înțelepciune care evoluează constant.",
+    "Când Stefan Perju zâmbește, soarele își pune ochelarii de soare.",
+    "Stefan Perju nu se uită la trecut. Trecutul îl întreabă cum să devină mai bun.",
+    "Dacă Stefan Perju ar fi fost DJ, muzica ar fi dansat pe ritmul lui.",
+    "Stefan Perju nu face greșeli. Greșelile se transformă în lecții când le atinge el.",
+    "Când Stefan Perju a fost întrebat care este secretul lui, a răspuns: „Nu este un secret. Este un zâmbet pe care-l împart cu lumea.”",
+    "Stefan Perju nu urcă scările. Scările urcă pentru a se afla mai aproape de el.",
+    "Dacă Stefan Perju ar fi fost DJ, muzica ar fi dansat pe ritmul lui.",
+    "Stefan Perju nu face greșeli. Greșelile se transformă în lecții când le atinge el.",
+    "Când Stefan Perju a fost întrebat care este secretul lui, a răspuns: „Nu este un secret. Este un zâmbet pe care-l împart cu lumea.”",
+    "Stefan Perju nu urcă scările. Scările urcă pentru a se afla mai aproape de el.",
+  ];
+  const allQuotes = [...originalQuotes, ...chuckNorrisAdaptedQuotes];
+  const getQuote = () =>
+    allQuotes[Math.floor(Math.random() * allQuotes.length)];
+
+  document.write(`<h1>${getQuote()}</h1>`);
+</script>
