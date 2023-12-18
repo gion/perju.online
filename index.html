@@ -52,6 +52,8 @@
   const allQuotes = [...originalQuotes, ...chuckNorrisAdaptedQuotes];
   const getQuote = () =>
     allQuotes[Math.floor(Math.random() * allQuotes.length)];
+  const quote = getQuote();
 
-  document.write(`<h1>${getQuote()}</h1>`);
+  console.log(quote);
+  document.write(`<h1>${quote}</h1>`);
 </script>
