@@ -127,7 +127,7 @@
       const imgEl = document.querySelector("#img");
 
       imgEl.style.backgroundImage = `url(${getRandomImage()})`;
-      document.body.onmousemove = () => {
+      document.body.onmousemove = document.body.ontouchmove = () => {
         imgEl.style.backgroundImage = `url(${getRandomImage()})`;
       };
 
